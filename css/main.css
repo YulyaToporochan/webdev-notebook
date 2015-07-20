@@ -95,18 +95,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+article {
+  
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: white;
+  height: auto;
+  margin-top: 2rem;
+  margin-left: 15%;
+  padding: 1rem;
+  width: 20rem;
+}
+.redText{
+  color: red;
+}
+.blueText{color: blue;}
+.greenText{color:green;}
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.ulmargin{margin-top: 0px;}
 
 
 
