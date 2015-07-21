@@ -104,7 +104,7 @@ article {
   margin-top: 2rem;
   margin-left: 15%;
   padding: 1rem;
-  width: 20rem;
+  width: 35rem;
 }
 .redText{
   color: red;
@@ -114,6 +114,15 @@ article {
 
 }
 .ulmargin{margin-top: 0px;}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+
+
+}
 
 
 
@@ -198,7 +207,7 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 25em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
