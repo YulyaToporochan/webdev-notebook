@@ -99,12 +99,12 @@ article {
   
   border: 1px solid grey;
   border-radius: 3px;
-  background-color: white;
+  background-color: grey;
   height: auto;
   margin-top: 2rem;
-  margin-left: 15%;
+  margin-left: 8%;
   padding: 1rem;
-  width: 35rem;
+  width: 20rem;
 }
 .redText{
   color: red;
@@ -118,10 +118,8 @@ article {
 .flexContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-content: flex-start;
-
-
+    flex-wrap: wrap;
 }
 
 
