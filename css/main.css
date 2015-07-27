@@ -116,27 +116,29 @@ article {
     flex-wrap: wrap;
 
 }
-.Content {margin-top: 150px;}
+.Content {margin-top: 150px;
+}
 
 
 header{
 position:fixed;
 top:0;
 left:0;
-width:1437px;
+width: 100%;
 background-color: orange;
 
 }
 
-ul {
-list-style: none;
-content-direction: row; 
-display: flex;
-justify-content: flex-end;
-
+.Links {
+    display:flex;
+    justify-content:flex-end;
+    list-style: none;
 }
+
+
 li {
 margin-right: 10px;
+list-style: none;
 
 }
 .Navigation {
@@ -151,6 +153,9 @@ footer {margin-bottom: 10px;}
 
 a:link {color:black;}
 a:visited {color:white;}
+
+
+
 
 
 /* ==========================================================================
