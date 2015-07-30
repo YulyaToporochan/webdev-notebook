@@ -122,10 +122,9 @@ article {
 
 header{
 position:fixed;
-top:0;
-left:0;
 width: 100%;
-background-color: orange;
+background-color: lightgrey;
+top:0;
 
 }
 
@@ -151,10 +150,12 @@ margin-left: -40px;
 
 footer {margin-bottom: 10px;}
 
-a:link {color:black;}
-a:visited {color:white;}
+a:link{color:green;}
 
-
+aside {
+ float: right;
+  width: auto;
+  }
 
 
 
